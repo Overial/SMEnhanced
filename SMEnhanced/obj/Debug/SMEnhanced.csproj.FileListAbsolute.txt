@@ -1,0 +1,10 @@
+D:\projects\source\repos\SMEnhanced\SMEnhanced\bin\Debug\SMEnhanced.exe.config
+D:\projects\source\repos\SMEnhanced\SMEnhanced\bin\Debug\SMEnhanced.exe
+D:\projects\source\repos\SMEnhanced\SMEnhanced\bin\Debug\SMEnhanced.pdb
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.csprojAssemblyReference.cache
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.Form1.resources
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.Properties.Resources.resources
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.csproj.GenerateResource.cache
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.csproj.CoreCompileInputs.cache
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.exe
+D:\projects\source\repos\SMEnhanced\SMEnhanced\obj\Debug\SMEnhanced.pdb
