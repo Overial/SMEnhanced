@@ -222,7 +222,7 @@ namespace SMEnhanced
             {
                 for (int i = 0; i < dimension; ++i)
                 {
-                    option += row[i].ToString() + "," + i.ToString() + ";";
+                    option += (row[i] + 1).ToString() + "," + (i + 1).ToString() + ";";
                 }
             }
 
@@ -276,14 +276,7 @@ namespace SMEnhanced
                 // this.dataGridView1.Rows[yQueen].Cells[xQueen].Style.BackColor = Color.Black;
 
                 // Display queen on board
-                if (radioButton1.Checked)
-                {
-                    this.dataGridView1.Rows[yQueen - 1].Cells[xQueen - 1].Value = "Q";
-                }
-                else if (radioButton2.Checked)
-                {
-                    this.dataGridView1.Rows[yQueen].Cells[xQueen].Value = "Q";
-                }
+                this.dataGridView1.Rows[yQueen - 1].Cells[xQueen - 1].Value = "Q";
             }
         }
 
@@ -470,7 +463,7 @@ namespace SMEnhanced
                 }
 
                 // Display board dimension
-                label4.Text = "Board " + dimension + "x" + dimension + ":";
+                label4.Text = "Доска " + dimension + "x" + dimension + ":";
             }
             catch
             {
@@ -493,15 +486,15 @@ namespace SMEnhanced
                     // Display options arrangement options amount
                     this.listBox1.SelectedIndex = 0;
                     this.listBox1_Click(sender, e);
-                    label2.Text = "Arrangement options amount: " + iOptionsCount.ToString();
+                    label2.Text = "Количество вариантов размещений: " + iOptionsCount.ToString();
 
                     // Display steps amount to capture effectiveness
-                    label7.Text = "Steps amount: " + bfsMethodStepsCount.ToString();
+                    label7.Text = "Количество шагов: " + bfsMethodStepsCount.ToString();
                     bfsMethodStepsCount = 0;
                 }
                 else
                 {
-                    label2.Text = "Arrangement options amount: 0";
+                    label2.Text = "Количество вариантов размещений: 0";
                 }
             }
             else if (this.radioButton2.Checked)
@@ -518,15 +511,15 @@ namespace SMEnhanced
                     // Display options arrangement options amount
                     this.listBox1.SelectedIndex = 0;
                     this.listBox1_Click(sender, e);
-                    label2.Text = "Arrangement options amount: " + iOptionsCount.ToString();
+                    label2.Text = "Количество вариантов размещений: " + iOptionsCount.ToString();
 
                     // Display steps amount to capture effectiveness
-                    label7.Text = "Steps amount: " + btMethodStepsCount.ToString();
+                    label7.Text = "Количество шагов: " + btMethodStepsCount.ToString();
                     btMethodStepsCount = 0;
                 }
                 else
                 {
-                    label2.Text = "Arrangement options amount: 0";
+                    label2.Text = "Количество вариантов размещений: 0";
                 }
             }
         }

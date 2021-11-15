@@ -53,15 +53,15 @@ namespace SMEnhanced
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 17);
+            this.label1.Size = new System.Drawing.Size(198, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Matrix dimension NxN =";
+            this.label1.Text = "Размерность матрицы NxN =";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(173, 13);
+            this.textBox1.Location = new System.Drawing.Point(216, 13);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(58, 22);
             this.textBox1.TabIndex = 1;
             // 
             // listBox1
@@ -82,7 +82,7 @@ namespace SMEnhanced
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 42);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Analyze";
+            this.button1.Text = "Анализ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -101,18 +101,18 @@ namespace SMEnhanced
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 222);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 17);
+            this.label3.Size = new System.Drawing.Size(157, 17);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Current arrangement:";
+            this.label3.Text = "Текущее размещение:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 460);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(207, 17);
+            this.label2.Size = new System.Drawing.Size(262, 17);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Arrangement options amount: 0";
+            this.label2.Text = "Количество вариантов размещений: 0";
             // 
             // label4
             // 
@@ -120,17 +120,17 @@ namespace SMEnhanced
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 22);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Board NxN:";
+            this.label4.Text = "Доска NxN:";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(50, 63);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 21);
+            this.radioButton1.Size = new System.Drawing.Size(134, 21);
             this.radioButton1.TabIndex = 8;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "BFS";
+            this.radioButton1.Text = "Поиск в ширину";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -138,10 +138,10 @@ namespace SMEnhanced
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(50, 90);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(110, 21);
+            this.radioButton2.Size = new System.Drawing.Size(103, 21);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Backtracking";
+            this.radioButton2.Text = "Бэктрекинг";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // label5
@@ -149,27 +149,27 @@ namespace SMEnhanced
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 43);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 17);
+            this.label5.Size = new System.Drawing.Size(172, 17);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Select searching method:";
+            this.label5.Text = "Выберите метод поиска:";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(48, 412);
+            this.button2.Location = new System.Drawing.Point(12, 412);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 29);
+            this.button2.Size = new System.Drawing.Size(108, 29);
             this.button2.TabIndex = 11;
-            this.button2.Text = "Previous";
+            this.button2.Text = "Предыдущее";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(129, 412);
+            this.button3.Location = new System.Drawing.Point(146, 412);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 29);
+            this.button3.Size = new System.Drawing.Size(108, 29);
             this.button3.TabIndex = 12;
-            this.button3.Text = "Next";
+            this.button3.Text = "Следующее";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -178,18 +178,18 @@ namespace SMEnhanced
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(12, 170);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 17);
+            this.label6.Size = new System.Drawing.Size(90, 17);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Results:";
+            this.label6.Text = "Результаты:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(12, 194);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 17);
+            this.label7.Size = new System.Drawing.Size(145, 17);
             this.label7.TabIndex = 14;
-            this.label7.Text = "Steps amount: 0";
+            this.label7.Text = "Количество шагов: 0";
             // 
             // Form1
             // 
@@ -213,7 +213,7 @@ namespace SMEnhanced
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "N Queens Puzzle";
+            this.Text = "Задача о N ферзях";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
